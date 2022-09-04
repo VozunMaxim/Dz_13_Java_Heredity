@@ -21,9 +21,15 @@
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.testng</groupId>-->
+<!--            <artifactId>testng</artifactId>-->
+<!--            <version>RELEASE</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
@@ -74,7 +80,7 @@
                                         <limit>
                                             <counter>LINE</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>100%</minimum>
+                                            <minimum>50%</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
